@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.custom-input {
+  border: 1px solid gray;
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 0.2rem;
+  color: #000;
+}
+.custom-input::placeholder {
+  font-size: 0.8rem;
+}
+
+.form-container {
+  height: 100%;
+  width: 66.66%;
+  position: relative;
+  padding: 2rem 3rem;
+}
